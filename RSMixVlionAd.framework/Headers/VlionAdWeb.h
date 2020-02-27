@@ -24,7 +24,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, weak) id<VlionAdWebDelegate> delegate;
 
-- (instancetype)initWithFrame:(CGRect)frame vmediaId:(NSString *)vmediaId rootViewController:(UIViewController *)rootViewController;
+- (instancetype)initWithFrame:(CGRect)frame mediaId:(NSString *)mediaId rootViewController:(UIViewController *)rootViewController;
 
 @end
 

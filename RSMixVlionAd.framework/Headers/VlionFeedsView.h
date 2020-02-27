@@ -32,6 +32,9 @@ NS_ASSUME_NONNULL_BEGIN
 // 广告曝光
 - (void)onFeedsExposure:(NSString *)adId;
 
+// 广告点击关闭
+- (void)onFeedsClose:(NSString *)adId;
+
 @end
 
 @interface VlionFeedsView : UIView

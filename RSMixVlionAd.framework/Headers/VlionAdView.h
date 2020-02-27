@@ -38,7 +38,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, weak) id<VlionAdViewDelegate> delegate;
 
-- (instancetype)initWithFrame:(CGRect)frame vmediaId:(NSString *)vmediaId;
+- (instancetype)initWithFrame:(CGRect)frame mediaId:(NSString *)mediaId;
 
 /**Banner广告点击打点*/
 - (void)onBannerClicke;
