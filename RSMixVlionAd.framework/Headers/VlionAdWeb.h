@@ -18,6 +18,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)vlionAdViewFail:(NSInteger)code errMsg:(NSString *)errMsg;
 
+- (void)vlionAdViewClickGame;
+
 @end
 
 @interface VlionAdWeb : UIView

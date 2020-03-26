@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
     spec.name         = "RSMixVlionAd"
-    spec.version      = "0.0.1"
+    spec.version      = "0.0.3"
     spec.summary      = "瑞狮融合SDK"
     
     spec.description  = <<-DESC
